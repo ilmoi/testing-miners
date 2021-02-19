@@ -1,0 +1,42 @@
+[2021-02-19 10:19:03,013] INFO - ----------------------------------------------
+[2021-02-19 10:19:03,013] INFO - |                                            |
+[2021-02-19 10:19:03,013] INFO - |                                            |
+[2021-02-19 10:19:03,013] INFO - |                                            |
+[2021-02-19 10:19:03,013] INFO - |                                            |
+[2021-02-19 10:19:03,013] INFO - |                                            |
+[2021-02-19 10:19:03,013] INFO - |                                            |
+[2021-02-19 10:19:03,013] INFO - |                                            |
+[2021-02-19 10:19:03,013] INFO - |         NBMiner - Crypto GPU Miner         |
+[2021-02-19 10:19:03,013] INFO - |                    36.1                    |
+[2021-02-19 10:19:03,013] INFO - |                                            |
+[2021-02-19 10:19:03,013] INFO - ----------------------------------------------
+[2021-02-19 10:19:03,013] INFO - ------------------- System -------------------
+[2021-02-19 10:19:03,013] INFO - OS:     Ubuntu 18.04.5 LTS, 5.4.0-1037-aws
+[2021-02-19 10:19:03,013] INFO - CPU:    Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz
+[2021-02-19 10:19:03,013] INFO - RAM:    15058 MB / 15718 MB
+[2021-02-19 10:19:03,022] INFO - CU_DRV: 11.0, 450.80.02
+[2021-02-19 10:19:03,022] INFO - ------------------- Config -------------------
+[2021-02-19 10:19:03,022] INFO - ALGO:   cuckatoo32
+[2021-02-19 10:19:03,022] INFO - URL:    stratum+tcp://grin.sparkpool.com:6665
+[2021-02-19 10:19:03,022] INFO - USER:   2516768771@qq.com/default
+[2021-02-19 10:19:03,022] INFO - TEMP:   90C
+[2021-02-19 10:19:03,164] INFO - ------------------- Device -------------------
+[2021-02-19 10:19:03,164] INFO -  |ID|PCI|  CC|Memory|CU|
+[2021-02-19 10:19:03,164] INFO - *| 0|  0|  75|15109M|40| Tesla T4
+[2021-02-19 10:19:03,164] INFO - ----------------------------------------------
+[2021-02-19 10:19:03,265] INFO - cuckatoo32 - Logging in to grin.sparkpool.com:6665 ...
+[2021-02-19 10:19:08,271] ERROR - cuckatoo32 - Failed to establish connection to mining pool: Socket operation timed out
+[2021-02-19 10:19:08,271] INFO - Logout.
+[2021-02-19 10:19:08,271] INFO - API:  0.0.0.0:22333
+[2021-02-19 10:19:08,271] INFO - API server started.
+[2021-02-19 10:19:10,369] INFO - Device 0 started, Free mem = 15007 MB.
+[2021-02-19 10:19:10,373] INFO - cuckatoo32 - Logging in to grin.sparkpool.com:6665 ...
+[2021-02-19 10:19:15,378] ERROR - cuckatoo32 - Failed to establish connection to mining pool: Socket operation timed out
+[2021-02-19 10:19:15,378] INFO - Logout.
+[2021-02-19 10:19:15,378] INFO - cuckatoo32 - Logging in to grin.sparkpool.com:6665 ...
+[2021-02-19 10:19:20,381] ERROR - cuckatoo32 - Failed to establish connection to mining pool: Socket operation timed out
+[2021-02-19 10:19:20,382] INFO - Logout.
+[2021-02-19 10:19:20,382] INFO - cuckatoo32 - Logging in to grin.sparkpool.com:6665 ...
+[2021-02-19 10:19:25,387] ERROR - cuckatoo32 - Failed to establish connection to mining pool: Socket operation timed out
+[2021-02-19 10:19:25,387] INFO - Logout.
+[2021-02-19 10:19:25,387] INFO - cuckatoo32 - Logging in to grin.sparkpool.com:6665 ...

@@ -1,0 +1,72 @@
+2021.02.19:10:15:12.992: main Phoenix Miner 5.5c Linux/gcc - Release build
+2021.02.19:10:15:12.992: main Cmd line: -pool eu1.ethpool.org:3333 -wal 0x008c26f3a2Ca8bdC11e5891e0278c9436B6F5d1E.Rig001 -coin etc 
+2021.02.19:10:15:13.039: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.02.19:10:15:13.045: main No OpenCL platforms found
+2021.02.19:10:15:13.045: main Available GPUs for mining:
+2021.02.19:10:15:13.045: main GPU1: Tesla T4 (pcie 0), CUDA cap. 7.5, 15 GB VRAM, 40 CUs
+2021.02.19:10:15:13.047: main NVML library initialized
+2021.02.19:10:15:13.052: main Nvidia driver version: 450.80.02
+2021.02.19:10:15:13.053: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.02.19:10:15:13.053: main Eth: primary pool: eu1.ethpool.org:3333
+2021.02.19:10:15:13.053: main Starting GPU mining
+2021.02.19:10:15:13.053: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.02.19:10:15:13.156: wdog Starting watchdog thread
+2021.02.19:10:15:13.156: main Eth: Connecting to ethash pool eu1.ethpool.org:3333 (proto: EthProxy)
+2021.02.19:10:15:13.156: main GPU1: 25C 9W
+GPUs power: 9.3 W
+2021.02.19:10:15:13.167: eths Eth: Connected to ethash pool eu1.ethpool.org:3333 (172.65.212.80)
+2021.02.19:10:15:13.167: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x008c26f3a2Ca8bdC11e5891e0278c9436B6F5d1E.Rig001"]}
+
+2021.02.19:10:15:13.199: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.02.19:10:15:13.199: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:15:13.223: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7f6ba5c25c79baa15c319a85772958a69b970bbd6dc78c418e1a6de5c6047b13","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56075"]}
+2021.02.19:10:15:13.223: eths Eth: New job #7f6ba5c2 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:13.223: GPU1 GPU1: Starting up... (0)
+2021.02.19:10:15:13.223: GPU1 GPU1: Generating etchash light cache for epoch #198
+2021.02.19:10:15:13.357: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.02.19:10:15:15.054: GPU1 Light cache generated in 1.8 s (22.3 MB/s)
+2021.02.19:10:15:15.079: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x733bdd6669cd636c1d48459a6528cfa7c7ef22e6bec72de5771e4071b7fb6564","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56075"]}
+2021.02.19:10:15:15.079: eths Eth: New job #733bdd66 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:16.593: GPU1 GPU1: Allocating DAG (2.56) GB; good for epoch up to #200
+2021.02.19:10:15:16.596: GPU1 GPU1: Generating DAG for epoch #198
+2021.02.19:10:15:18.161: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:15:18.204: GPU1 GPU1: DAG  20%
+2021.02.19:10:15:19.039: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x98e62791551090eab9f5afeb978923602008aaad78ee92210eb1ff33d32590ac","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56075"]}
+2021.02.19:10:15:19.039: eths Eth: New job #98e62791 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:19.761: GPU1 GPU1: DAG  42%
+2021.02.19:10:15:21.365: GPU1 GPU1: DAG  64%
+2021.02.19:10:15:22.719: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3029e5e12c435614e07bf35deae62e8c83103c64a002f7f98f46ab5c938e6add","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56075"]}
+2021.02.19:10:15:22.719: eths Eth: New job #3029e5e1 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:22.923: GPU1 GPU1: DAG  86%
+2021.02.19:10:15:23.166: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:15:23.167: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:15:23.191: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3029e5e12c435614e07bf35deae62e8c83103c64a002f7f98f46ab5c938e6add","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56075"]}
+2021.02.19:10:15:23.832: GPU1 GPU1: DAG generated in 7.2 s (360.5 MB/s)
+2021.02.19:10:15:23.833: GPU1 GPU1: Using v2 Ethash CUDA kernels (Tesla T4)
+2021.02.19:10:15:27.079: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xcdcdb609af99e01633a498b94172e10af060b254c6aaa19e83e9b985136f0dec","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56075"]}
+2021.02.19:10:15:27.079: eths Eth: New job #cdcdb609 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:28.171: main Eth speed: 25.728 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:15:29.711: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x8b93a7e853202b999d6fc71307a78753ad6fb37879166d9ff8bd00c37468e0a6","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56076"]}
+2021.02.19:10:15:29.711: eths Eth: New job #8b93a7e8 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:29.959: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x20c33469584757eaa563e1124d9449931c76af1f3571590d398799e3748685bf","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56076"]}
+2021.02.19:10:15:29.959: eths Eth: New job #20c33469 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:31.199: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf7515c2002d14c71d93bf3f8a9062f74d8f5831557ec1ae5d1cbffcd0256ea24","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56077"]}
+2021.02.19:10:15:31.199: eths Eth: New job #f7515c20 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:31.247: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x20c33469584757eaa563e1124d9449931c76af1f3571590d398799e3748685bf","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56076"]}
+2021.02.19:10:15:31.247: eths Eth: New job #20c33469 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:31.823: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd32b44389e0e4b6520bef33d4d36d112d9e8952649770500b20816e9dcf1109d","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56077"]}
+2021.02.19:10:15:31.823: eths Eth: New job #d32b4438 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:33.167: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:15:33.167: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x188935f","0x0024a400f624482f82ba38312e6e3ef3662ba7b4a2ca6e7806f0b3c71f3c28d8"]}
+
+2021.02.19:10:15:33.176: main Eth speed: 25.731 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:15:33.191: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd32b44389e0e4b6520bef33d4d36d112d9e8952649770500b20816e9dcf1109d","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56077"]}
+2021.02.19:10:15:33.191: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.02.19:10:15:35.807: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc929e39c06e3db392ec22ab89443cc8c13714cf3d59a51fca58be6d5c72fd33f","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb56077"]}
+2021.02.19:10:15:35.807: eths Eth: New job #c929e39c from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:15:36.051: main Quitting...
+2021.02.19:10:15:37.037: wdog Stopping watchdog thread
+2021.02.19:10:15:37.037: main Exit code: 0

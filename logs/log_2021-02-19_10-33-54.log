@@ -1,0 +1,10 @@
+2021-02-19 10:33:54: <info>                                    _                 
+2021-02-19 10:33:54: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2021-02-19 10:33:54: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2021-02-19 10:33:54: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2021-02-19 10:33:54: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2021-02-19 10:33:54: <info> 
+2021-02-19 10:33:54: <info> Version 3.2.2
+2021-02-19 10:33:54: <error>  The configuration file does not contain any wallets or they are invalid!
+2021-02-19 10:33:54: <error>  Minimal configuration file for Ethereum mining is "wallet=<your Ethereum wallet>".
+2021-02-19 10:33:54: <error>  See ReadMe document for detailed information.

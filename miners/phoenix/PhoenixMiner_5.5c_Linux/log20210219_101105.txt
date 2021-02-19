@@ -1,0 +1,135 @@
+2021.02.19:10:11:05.117: main Phoenix Miner 5.5c Linux/gcc - Release build
+2021.02.19:10:11:05.117: main Cmd line: -pool eu1.ethpool.org:3333 -wal 0x008c26f3a2Ca8bdC11e5891e0278c9436B6F5d1E.Rig001 -coin etc 
+2021.02.19:10:11:05.164: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.02.19:10:11:05.587: main No OpenCL platforms found
+2021.02.19:10:11:05.587: main Available GPUs for mining:
+2021.02.19:10:11:05.587: main GPU1: Tesla T4 (pcie 0), CUDA cap. 7.5, 15 GB VRAM, 40 CUs
+2021.02.19:10:11:05.589: main NVML library initialized
+2021.02.19:10:11:05.595: main Nvidia driver version: 450.80.02
+2021.02.19:10:11:05.595: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.02.19:10:11:05.595: main Eth: primary pool: eu1.ethpool.org:3333
+2021.02.19:10:11:05.595: main Starting GPU mining
+2021.02.19:10:11:05.595: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.02.19:10:11:05.699: wdog Starting watchdog thread
+2021.02.19:10:11:05.699: main Eth: Connecting to ethash pool eu1.ethpool.org:3333 (proto: EthProxy)
+2021.02.19:10:11:05.699: main GPU1: 23C 9W
+GPUs power: 9.2 W
+2021.02.19:10:11:05.728: eths Eth: Connected to ethash pool eu1.ethpool.org:3333 (172.65.212.80)
+2021.02.19:10:11:05.728: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x008c26f3a2Ca8bdC11e5891e0278c9436B6F5d1E.Rig001"]}
+
+2021.02.19:10:11:05.760: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.02.19:10:11:05.760: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:11:05.784: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x5afe612c6435274e50c5bb9ccbcca593609fe66f3a051f1e228c58fc2550bd5a","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606b"]}
+2021.02.19:10:11:05.784: eths Eth: New job #5afe612c from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:05.784: GPU1 GPU1: Starting up... (0)
+2021.02.19:10:11:05.784: GPU1 GPU1: Generating etchash light cache for epoch #198
+2021.02.19:10:11:05.899: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.02.19:10:11:07.615: GPU1 Light cache generated in 1.8 s (22.3 MB/s)
+2021.02.19:10:11:08.896: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x638875774bb075cde91d5a1fa5ad267889ef1755bda51606ece93c7a48d9c2de","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606b"]}
+2021.02.19:10:11:08.896: eths Eth: New job #63887577 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:09.392: GPU1 GPU1: Allocating DAG (2.56) GB; good for epoch up to #200
+2021.02.19:10:11:09.396: GPU1 GPU1: Generating DAG for epoch #198
+2021.02.19:10:11:10.704: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:10.932: GPU1 GPU1: DAG  19%
+2021.02.19:10:11:12.400: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd723f8cea6c8e49446cb5aaceaba598ed708cdb89a73db8f0c02af2e1cd1b127","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606c"]}
+2021.02.19:10:11:12.400: eths Eth: New job #d723f8ce from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:12.490: GPU1 GPU1: DAG  41%
+2021.02.19:10:11:12.536: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6ef848ba81d5d044af62c280ba0e3d98adc7cf1ff6724c44e35010526bc772eb","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606c"]}
+2021.02.19:10:11:12.536: eths Eth: New job #6ef848ba from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:13.648: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x38aef41cbd0d2013da2475a9e7349b8ef878384714084434cb19563b1ac47c84","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606d"]}
+2021.02.19:10:11:13.648: eths Eth: New job #38aef41c from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:14.101: GPU1 GPU1: DAG  62%
+2021.02.19:10:11:14.176: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x89b25aeca31555ad7d11aa95000a3f8cb9a4ff68a444e26e5f51180ab81a2eaa","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606d"]}
+2021.02.19:10:11:14.176: eths Eth: New job #89b25aec from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:14.648: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x95d2c40cf6ad23aee1f6f682678d24c8731568f640768ec59b509578886d4a02","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606d"]}
+2021.02.19:10:11:14.648: eths Eth: New job #95d2c40c from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:15.662: GPU1 GPU1: DAG  84%
+2021.02.19:10:11:15.709: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:15.728: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:11:15.752: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x95d2c40cf6ad23aee1f6f682678d24c8731568f640768ec59b509578886d4a02","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606d"]}
+2021.02.19:10:11:16.678: GPU1 GPU1: DAG generated in 7.3 s (358.2 MB/s)
+2021.02.19:10:11:16.679: GPU1 GPU1: Using v2 Ethash CUDA kernels (Tesla T4)
+2021.02.19:10:11:18.184: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x05b6848896475b7bc38cd1da4ae8e9f1f509cc439417967cb61f450a68199c19","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606d"]}
+2021.02.19:10:11:18.184: eths Eth: New job #05b68488 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:20.714: main Eth speed: 25.732 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:22.024: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xdbb6e47a4dbd2ec068da08a249936aa0b7f9cd49d689720c8f8ca9d7eb217ff1","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606d"]}
+2021.02.19:10:11:22.024: eths Eth: New job #dbb6e47a from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:25.718: main Eth speed: 25.736 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:25.728: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:11:25.728: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x188b309","0x7ea09ad7bf8f13fbb4642905e38342831dd30cadb5db85b74260c9446878088b"]}
+
+2021.02.19:10:11:25.752: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xdbb6e47a4dbd2ec068da08a249936aa0b7f9cd49d689720c8f8ca9d7eb217ff1","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606d"]}
+2021.02.19:10:11:25.752: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.02.19:10:11:26.200: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3e791f7307c32aa68fd12e43d1a0762a4d3602ff23fc838fa5547937957d5a3b","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606d"]}
+2021.02.19:10:11:26.200: eths Eth: New job #3e791f73 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:29.112: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4bc7584dc75ef3de3d9902a065adb1c10507508730c5f31f1b7d550ee7e059b0","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606e"]}
+2021.02.19:10:11:29.112: eths Eth: New job #4bc7584d from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:29.944: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x251ffa416814b3cc48b51cc88108ca62cf265d8361dd18d65b347e0715cc374b","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606e"]}
+2021.02.19:10:11:29.944: eths Eth: New job #251ffa41 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:30.723: main Eth speed: 25.737 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:33.744: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x38cadaf125475ec44386d6c8f7b1bf4d903268395eae7673f948cb031fe1d597","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606e"]}
+2021.02.19:10:11:33.744: eths Eth: New job #38cadaf1 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:34.720: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x862c55371035637196015cdcc3a21af1244c6b728309a508f92a490760f07c58","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:34.720: eths Eth: New job #862c5537 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:35.104: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa164d6839c9caf6c9ab3c6ee708ac5ca7a6deb10ff36b721ab5375f7a3b4fa69","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:35.104: eths Eth: New job #a164d683 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:35.700: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.02.19:10:11:35.728: main Eth speed: 25.738 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:35.728: main GPU1: 34C 70W
+GPUs power: 70.2 W
+2021.02.19:10:11:35.728: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:11:35.752: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa164d6839c9caf6c9ab3c6ee708ac5ca7a6deb10ff36b721ab5375f7a3b4fa69","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:39.328: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3412fa70bd59dd09168c19d728b97489c3c92bd8370ef343692e9564ae76c6a5","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:39.328: eths Eth: New job #3412fa70 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:40.732: main Eth speed: 25.738 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:43.344: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd29cd29d26ad452205f619abc16fa29bc8f4edce482fd465951f3f2c4e2f5bfb","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:43.344: eths Eth: New job #d29cd29d from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:45.728: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:11:45.728: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x188b7cf","0x7ea09ad7bf8f13fbb4642905e38342831dd30cadb5db85b74260c9446878088b"]}
+
+2021.02.19:10:11:45.737: main Eth speed: 25.738 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:45.752: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd29cd29d26ad452205f619abc16fa29bc8f4edce482fd465951f3f2c4e2f5bfb","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:45.752: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.02.19:10:11:47.096: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa67386f2ff2721eef292ae34044884a8125e3c1c3681cd0ee69566898f6c6e7b","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:47.096: eths Eth: New job #a67386f2 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:50.742: main  
+2021.02.19:10:11:50.742: main *** 0:00 *** 2/19 10:11 **************************************
+2021.02.19:10:11:50.742: main Eth: Mining ETC on eu1.ethpool.org:3333 for 0:00
+2021.02.19:10:11:50.742: main Eth speed: 25.737 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:50.742: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.02.19:10:11:50.742: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.02.19:10:11:50.742: main Eth: Average speed (5 min): 25.737 MH/s
+2021.02.19:10:11:50.742: main  
+2021.02.19:10:11:51.344: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9f1fc144e6bdceda76476b6e2a0dd2d9356932c2a613c0b07dd80c873854452f","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:51.344: eths Eth: New job #9f1fc144 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:55.336: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xaa11bb4d57b10181117c5153a4b14f6d27ac818b0d9dfa045da656923160e43d","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:55.336: eths Eth: New job #aa11bb4d from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:11:55.728: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:11:55.746: main Eth speed: 25.737 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:11:55.752: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xaa11bb4d57b10181117c5153a4b14f6d27ac818b0d9dfa045da656923160e43d","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:59.120: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa82573df0f397844c315996bd11e9d29c4cf5e7520c0ceb7922019927facf34b","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:11:59.120: eths Eth: New job #a82573df from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:12:00.751: main Eth speed: 25.737 MH/s, shares: 0/0/0, time: 0:00
+2021.02.19:10:12:03.576: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x315a0d6276bc4080be5b38a1a87ff5d0b4034cac78090ad9af243b82d04f404e","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:12:03.576: eths Eth: New job #315a0d62 from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:12:05.729: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.02.19:10:12:05.729: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x188b785","0x7ea09ad7bf8f13fbb4642905e38342831dd30cadb5db85b74260c9446878088b"]}
+
+2021.02.19:10:12:05.752: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x315a0d6276bc4080be5b38a1a87ff5d0b4034cac78090ad9af243b82d04f404e","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:12:05.752: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.02.19:10:12:05.755: main Eth speed: 25.737 MH/s, shares: 0/0/0, time: 0:01
+2021.02.19:10:12:05.803: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.02.19:10:12:05.956: main GPU1: 37C 70W
+GPUs power: 69.7 W
+2021.02.19:10:12:07.448: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xbb24734c2de643b6d72add2b1231a0bf0e8c20a88db69f25add8a61f53d5ab4b","0x6b7fe9651d4c13b078206f499a8bf24cfe4fb734f8627aa5eadf268f6b2c57ed","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb5606f"]}
+2021.02.19:10:12:07.448: eths Eth: New job #bb24734c from eu1.ethpool.org:3333; diff: 4000MH
+2021.02.19:10:12:08.072: main Quitting...
+2021.02.19:10:12:09.306: wdog Stopping watchdog thread
+2021.02.19:10:12:09.306: main Exit code: 0

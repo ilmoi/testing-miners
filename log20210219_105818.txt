@@ -1,0 +1,33 @@
+2021.02.19:10:58:18.317: main Phoenix Miner 5.5c Linux/gcc - Release build
+2021.02.19:10:58:18.317: main Cmd line: -pool coinotron.com:3344 -wal 0x008c26f3a2Ca8bdC11e5891e0278c9436B6F5d1E.Rig001 -coin etc 
+2021.02.19:10:58:18.363: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.02.19:10:58:18.368: main No OpenCL platforms found
+2021.02.19:10:58:18.368: main Available GPUs for mining:
+2021.02.19:10:58:18.368: main GPU1: Tesla T4 (pcie 0), CUDA cap. 7.5, 15 GB VRAM, 40 CUs
+2021.02.19:10:58:18.371: main NVML library initialized
+2021.02.19:10:58:18.376: main Nvidia driver version: 450.80.02
+2021.02.19:10:58:18.376: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.02.19:10:58:18.376: main Eth: primary pool: coinotron.com:3344
+2021.02.19:10:58:18.376: main Starting GPU mining
+2021.02.19:10:58:18.377: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.02.19:10:58:18.482: wdog Starting watchdog thread
+2021.02.19:10:58:18.482: main Eth: Connecting to ethash pool coinotron.com:3344 (proto: EthProxy)
+2021.02.19:10:58:18.482: main GPU1: 24C 11W
+GPUs power: 10.5 W
+2021.02.19:10:58:18.682: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.02.19:10:58:48.483: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.02.19:10:58:48.507: main GPU1: 24C 9W
+GPUs power: 9.0 W
+2021.02.19:10:59:03.519: main  
+2021.02.19:10:59:03.519: main *** 0:00 *** 2/19 10:59 **************************************
+2021.02.19:10:59:03.519: main Eth: Mining ETC on >coinotron.com:3344 for 0:00
+2021.02.19:10:59:03.519: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.02.19:10:59:03.519: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.02.19:10:59:03.519: main Eth: Average speed (5 min): 0.000 MH/s
+2021.02.19:10:59:03.519: main  
+2021.02.19:10:59:18.587: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.02.19:10:59:18.732: main GPU1: 24C 9W
+GPUs power: 9.2 W
+2021.02.19:10:59:23.015: main Quitting...
+2021.02.19:10:59:23.015: wdog Stopping watchdog thread
+2021.02.19:10:59:23.016: main Exit code: 0

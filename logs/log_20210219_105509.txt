@@ -1,0 +1,33 @@
+[10:55:09] INFO - ----------------------------------------------
+[10:55:09] INFO - |                                            |
+[10:55:09] INFO - |                                            |
+[10:55:09] INFO - |                                            |
+[10:55:09] INFO - |                                            |
+[10:55:09] INFO - |                                            |
+[10:55:09] INFO - |                                            |
+[10:55:09] INFO - |                                            |
+[10:55:09] INFO - |         NBMiner - Crypto GPU Miner         |
+[10:55:09] INFO - |                    36.1                    |
+[10:55:09] INFO - |                                            |
+[10:55:09] INFO - ----------------------------------------------
+[10:55:09] INFO - ------------------- System -------------------
+[10:55:09] INFO - OS:     Ubuntu 18.04.5 LTS, 5.4.0-1037-aws
+[10:55:09] INFO - CPU:    Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz
+[10:55:09] INFO - RAM:    15057 MB / 15718 MB
+[10:55:09] INFO - CU_DRV: 11.0, 450.80.02
+[10:55:09] INFO - ------------------- Config -------------------
+[10:55:09] INFO - ALGO:   beamv3
+[10:55:09] INFO - URL:    stratum+ssl://beam.sparkpool.com:2222
+[10:55:09] INFO - USER:   2c8b1bf8aa7c658eec8c315c645abed931cd87aded1e959a0c7fb09c8e4a3151a58.default
+[10:55:09] INFO - TEMP:   90C
+[10:55:09] INFO - ------------------- Device -------------------
+[10:55:09] INFO -  |ID|PCI|  CC|Memory|CU|
+[10:55:09] INFO - *| 0|  0|  75|15109M|40| Tesla T4
+[10:55:09] INFO - ----------------------------------------------
+[10:55:09] INFO - beamv3 - Logging in to beam.sparkpool.com:2222 ...
+[10:55:10] INFO - beamv3 - Login succeeded.
+[10:55:10] INFO - beamv3 - New job: beam.sparkpool.com:2222, ID: 32098848, HEIGHT: 1115900, DIFF: 1.024K
+[10:55:10] INFO - API:  0.0.0.0:22333
+[10:55:10] INFO - API server started.
+[10:55:12] INFO - Device 0 started, Free mem = 15007 MB.
+[10:55:13] INFO - beamv3 - New job: beam.sparkpool.com:2222, ID: 32113848, HEIGHT: 1115900, DIFF: 1.024K

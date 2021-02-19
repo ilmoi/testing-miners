@@ -1,0 +1,42 @@
+[10:23:23] INFO - ----------------------------------------------
+[10:23:23] INFO - |                                            |
+[10:23:23] INFO - |                                            |
+[10:23:23] INFO - |                                            |
+[10:23:23] INFO - |                                            |
+[10:23:23] INFO - |                                            |
+[10:23:23] INFO - |                                            |
+[10:23:23] INFO - |                                            |
+[10:23:23] INFO - |         NBMiner - Crypto GPU Miner         |
+[10:23:23] INFO - |                    36.1                    |
+[10:23:23] INFO - |                                            |
+[10:23:23] INFO - ----------------------------------------------
+[10:23:23] INFO - ------------------- System -------------------
+[10:23:23] INFO - OS:     Ubuntu 18.04.5 LTS, 5.4.0-1037-aws
+[10:23:23] INFO - CPU:    Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz
+[10:23:23] INFO - RAM:    15059 MB / 15718 MB
+[10:23:23] INFO - CU_DRV: 11.0, 450.80.02
+[10:23:23] INFO - ------------------- Config -------------------
+[10:23:23] INFO - ALGO:   beamv3
+[10:23:23] INFO - URL:    stratum+ssl://beam.sparkpool.com:2222
+[10:23:23] INFO - USER:   2c8b1bf8aa7c658eec8c315c645abed931cd87aded1e959a0c7fb09c8e4a3151a58.default
+[10:23:23] INFO - TEMP:   90C
+[10:23:24] INFO - ------------------- Device -------------------
+[10:23:24] INFO -  |ID|PCI|  CC|Memory|CU|
+[10:23:24] INFO - *| 0|  0|  75|15109M|40| Tesla T4
+[10:23:24] INFO - ----------------------------------------------
+[10:23:24] INFO - beamv3 - Logging in to beam.sparkpool.com:2222 ...
+[10:23:25] INFO - beamv3 - Login succeeded.
+[10:23:25] INFO - beamv3 - New job: beam.sparkpool.com:2222, ID: 30203502, HEIGHT: 1115868, DIFF: 1.024K
+[10:23:25] INFO - API:  0.0.0.0:22333
+[10:23:25] INFO - API server started.
+[10:23:27] INFO - Device 0 started, Free mem = 15007 MB.
+[10:23:32] INFO - beamv3 - #1 Share accepted, 325 ms. [DEVICE 0, #1]
+[10:23:32] INFO - beamv3 - New job: beam.sparkpool.com:2222, ID: 30212518, HEIGHT: 1115869, DIFF: 1.024K
+[10:23:44] INFO - ======================== Summary 2021-02-19 10:23:44 ========================
+[10:23:44] INFO - |ID|Device|Hashrate|Accept|Reject|Inv|Powr|Temp|Fan|CClk|GMClk|MUtl|Eff/Watt|
+[10:23:44] INFO - | 0|Nvidia|  11.39 |     1|     0|  0|  68|  33|  0|1365| 5000|  72| 0.1674 |
+[10:23:44] INFO - |------------------+------+------+---+----+---------------------------------|
+[10:23:44] INFO - |    Total:  11.39 |     1|     0|  0|  68| Uptime:  0D 00:00:21   CPU:  0% |
+[10:23:44] INFO - =============================================================================
+[10:23:44] INFO - beamv3 - On Pool   10m:  48.76    4h:  48.76    24h:  48.76 
+[10:23:47] INFO - beamv3 - New job: beam.sparkpool.com:2222, ID: 30227492, HEIGHT: 1115869, DIFF: 1.024K
